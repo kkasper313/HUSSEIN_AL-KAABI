@@ -1,0 +1,115 @@
+h1 {
+    font-style: inherit;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 125px;
+    background-color: black;
+    width: max-content;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p{
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    margin-left: 105px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+a{
+    color: rgb(163, 166, 162) ;
+    background-color: rgb(0, 0, 0);
+    font: 1em sans-serif;
+    font-size: 15px;
+    
+    
+    
+    
+    
+
+}
+nav{
+    width: 20%;
+    min-width: 86px;
+    height:  5vh;
+    display: flex;
+    margin-left: 135px;
+    font-size: 25px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.3s;
+    -moz-transition:0.3s ;
+    -ms-transition:0.3s ;
+    -o-transition:0.3s ;
+    align-items: center;
+    margin: 015%;
+    font-size: 20px;
+    
+    
+}
+a::before{
+    content:'';
+    position:absolute;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    bottom: -7px;
+    transition: 0.3s;
+    -moz-transition:0.3s ;
+    -ms-transition:0.3s ;
+    -o-transition:0.3s ;
+    
+   
+    
+}
+a:hover::before{
+    width: 100%;
+}
+
+#lpa44{
+    color: aliceblue;
+}
+.lpa31 {
+    font-size: 30px;
+    font-style: inherit;
+  
+}
+
+i{
+    color: aliceblue;
+    margin-left: 1px;
+    font-size: 0.5cm;
+}
+u{
+    color: aliceblue;
+    margin-left: 290px;
+    font-size: 0.5cm;
+ 
+
+}
+b{
+    color: aliceblue;
+    font-size: 0.5cm;
+    margin-left: 80px;
+}
+body{
+    color: black;
+    background-color: black;
+    border-color: rgb(133, 21, 21);
+    border-style: ridge;
+    height: 100%;
+    width: 100%;
+
+
+}
